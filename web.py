@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return 'Deployment in SCM'
+  return 'Auto deploy in SCM'
